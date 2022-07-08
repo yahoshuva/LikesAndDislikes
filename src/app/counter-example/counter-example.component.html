@@ -1,10 +1,95 @@
-<h1>Like and Dislike Buttons</h1>
+<section class="counter">
+    <div class="container">
+       <div class="row mt-5" >
+            <div class="col-lg-3 mb-5"*ngFor="let cs of counter">
+                <div class="box shadow-sm">
+                    <img src="{{cs.image}}" width="100%">
+                    <button mat-raised-button color="primary" (click)="add('add')">Like</button>
+                     <p>{{addlike}}</p>
+                   <button mat-raised-button color="primary" (click)="dis('add1')">DisLike</button>
+                   <p>{{dislike}}</p>
+                </div>
+             </div>
+             </div>
+            </div>
+        </section>
 
-<button (click)="add('add')" >Like</button>
-<p>Likes:{{addlike}}</p>
+<section class="counter1">
+    <div class="container">
+       <div class="row mt-5" >
+            <div class="col-lg-3 mb-5"*ngFor="let cs of counter1">
+                <div class="box shadow-sm">
+                    <img src="{{cs.image}}" width="100%">
+                    <button mat-raised-button color="primary" (click)="A('add')">Like</button>
+                     <p>{{uplike}}</p>
+                   <button mat-raised-button color="primary" (click)="B('add1')">DisLike</button>
+                   <p>{{downlike}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="counter2">
+    <div class="container">
+       
+        <div class="row mt-5" >
+            <div class="col-lg-3 mb-5"*ngFor="let cs of counter2">
+                <div class="box shadow-sm">
+                    <img src="{{cs.image}}" width="100%">
+                    <button mat-raised-button color="primary" (click)="add('add')">Like</button>
+                     <p>{{addlike}}</p>
+                   <button mat-raised-button color="primary" (click)="dis('add1')">DisLike</button>
+                   <p>{{dislike}}</p>
+                </div>
+
+            </div>
 
 
-<button (click)="dis('add1')">Dislike</button>
-<p>Likes: {{dislike}}</p>
+        </div>
 
+    </div>
+
+</section>
+<section class="counter3">
+    <div class="container">
+       
+        <div class="row mt-5" >
+            <div class="col-lg-3 mb-5"*ngFor="let cs of counter3">
+                <div class="box shadow-sm">
+                    <img src="{{cs.image}}" width="100%">
+                    <button mat-raised-button color="primary" (click)="add('add')">Like</button>
+                     <p>{{addlike}}</p>
+                   <button mat-raised-button color="primary" (click)="dis('add1')">DisLike</button>
+                   <p>{{dislike}}</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+<section class="counter4">
+    <div class="container">
+       
+        <div class="row mt-5" >
+            <div class="col-lg-3 mb-5"*ngFor="let cs of counter4">
+                <div class="box shadow-sm">
+                    <img src="{{cs.image}}" width="100%">
+                    <button mat-raised-button color="primary" (click)="add('add')">Like</button>
+                     <p>{{addlike}}</p>
+                   <button mat-raised-button color="primary" (click)="dis('add1')">DisLike</button>
+                   <p>{{dislike}}</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section> 
 

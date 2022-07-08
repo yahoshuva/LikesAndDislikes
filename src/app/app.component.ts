@@ -7,11 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SimpleProject';
-  count=0
-
-  counter(type:string)
-  {
-    type==='add'?this.count++:this.count--
-    
-  }
+  
 }
